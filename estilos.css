@@ -1,0 +1,105 @@
+
+body {
+    background-color: black;
+}
+.nav-container {
+    justify-content: center;
+    padding-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+ul {
+    list-style: none; /* remove bullet points */
+    display: flex;
+    justify-content:space-between; /* distribute items evenly */
+    align-items: center; /* center items vertically */
+}
+
+
+li {
+ /* add 10px padding to left and right of each list item */
+    font-size: 1.5rem;
+}
+nav a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+svg {
+    width: 4rem;
+    fill: green;
+}
+
+.hacker {
+    background-image: url(img/hacker.png);
+    background-repeat: no-repeat; /* do not repeat the image */
+    background-size: cover; /* scale the image to cover the entire div */
+    background-position: center; /* center the image within the div */
+    height: 50rem;
+    width: 110rem;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    border: 2px gray solid;
+    padding-right: 2rem;
+}
+
+.home-text {
+    
+    color: lightgray;
+}
+
+.title {
+    
+    font-family: 'Kanit', sans-serif;
+}
+
+.one {
+    position: absolute;
+    top: 12rem; left: 6rem;
+    font-size: 6rem;
+    padding: 0;
+    margin: 0;
+}
+
+.two {
+    position: absolute;
+    top: 17rem; left: 6rem;
+    font-weight: 600;
+    font-size: 10rem;
+    margin: 0;
+}
+
+.text {
+    width: 63rem;
+    position: absolute;
+    top: 29rem; left: 6rem;
+    font-size: 1.4rem;
+}
+
+.button {
+    position: absolute;
+    top: 42rem; left: 6rem;
+    background-color: transparent;
+    border: 1px solid green;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: green;
+    font-weight: 600;
+}
+
+.button a {
+    text-decoration: none;
+    color: green;
+}
+
+li a:hover {
+    text-decoration: underline green;
+    color: green;
+}
+
+.svg-hover:hover {
+    text-decoration:underline red;
+    stroke: white;
+    stroke-width: 10;
+}
